@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
+
+
+body {
+  margin: 0;
+  font-family: 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.hover, a {
+  @media screen and (hover: hover) {
+    &:hover {
+      transition: 0.3s;
+      opacity: 0.7;
+    }
+  }
+}
+
+a {
+  all: unset;
+  cursor: pointer;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+
+  @media screen and (max-width: 768px) {
+    width: unset;
+    overflow-x: scroll;
+  }
+}
+
+ul li {
+  list-style: none;
+}
+
+body > iframe {
+  display: none;
+}
+
+
+*::-webkit-scrollbar-track {
+  border-radius: 5px;
+  background-color: #000000;
+}
+
+*::-webkit-scrollbar {
+  width: 5px;
+  background-color: #00000000;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 15px;
+  background-color: #ffffff;
+}

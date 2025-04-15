@@ -1,0 +1,21 @@
+.main {
+  background: #010537;
+  background: linear-gradient(162deg,#010537 0%, #000000 80%);
+  background: -webkit-linear-gradient(162deg,#010537 0%, #000000 80%);
+  background: -moz-linear-gradient(162deg,#010537 0%, #000000 80%);
+  
+  width: 100vw;
+  min-height: 100vh;
+
+
+  .news__list {
+    width: 100%;
+    min-height: calc(100vh - 30px);
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    padding: 15px 0px;
+    align-items: center;
+    justify-content: center;
+  }
+}
